@@ -1,0 +1,19 @@
+.class1, button, .class2 {
+  padding: 10px 20px;
+  background-color: red;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  border: none;
+}
+
+.class2 {
+  background-color: green;
+}
+
+button {
+  background-color: orange;
+}/*# sourceMappingURL=styles.css.map */

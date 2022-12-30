@@ -1,0 +1,44 @@
+// Extends in Scss
+// We can use class instead of class. - it means - we can able to reuse my classes in to dif dif classes.
+// Use - We can call our extends bu @extends calling function
+
+
+// For example 
+// Here we have a class
+
+// class nme
+.class1{
+    // declearing properties
+    padding: 10px 20px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px;
+    border:none;
+}
+
+// Here i have created one more class
+
+.class2{
+    // Here @extends is our calling function and .class1 is our reusable class name.
+    // (Reuse propvios class properies)
+    @extend .class1;
+
+    // Here i have change or added some dif syting for my second button variation.
+    background-color: green;
+}
+
+
+// Simply i have created one more button for batter understanding
+
+button{
+    // here i have resuse my class properties
+    // (Reuse propvios class properies)
+    @extend .class1;
+
+    // Here i have changs the backgrounds for dif design
+    background-color: orange;
+}
