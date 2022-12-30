@@ -6,8 +6,8 @@
 <code>map.get($globalVarName, "newColor")</code>
       
 ## How can we enable map in scss ??
-> 1. add @use <code>"sass:map";</code in you scss file
-> 2. create Global var like
+> 1. Add @use <code>"sass:map";</code> in you scss file
+> 2. Create Global var 
 <code>
   backgrounds:(   
       "bg-blue" : blue,
@@ -15,7 +15,7 @@
       "bg-black" : black,
       "bg-white" : white
   );
-</code
+</code>
 > 3. use your global variables by using maping
 <code>
       background-color: map.get($backgrounds, "bg-black");
