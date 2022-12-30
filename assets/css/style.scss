@@ -1,7 +1,54 @@
-h1{
-    color: red;
-    span{
-        color: green;
-        font-size: 30px;
-    }
+@use "sass:map";
+
+// Introduction of map
+// in map we can declear multiple global variables fro bunch of css properties
+// we can call global variable by use of map.get($globalVarName, "newColor");
+// _______________________________________________________________________________
+
+// For Example - 
+
+//  Here i have craeted Global Var for Background and attaching new name for my existing variables.
+$backgrounds:(
+    // Here I have atached new name in my existing var.
+    "bg-blue" : blue,
+    "bg-green" : green,
+    "bg-black" : black,
+    "bg-white" : white
+);
+
+
+//  Here i have craeted Global Var for Text Color and attaching new name for my existing variables.
+$textColor:(
+
+    // Here I have atached new name in my existing var.
+    "text-blue" : blue,
+    "text-green" : green,
+    "text-black" : black,
+    "text-white" : white
+);
+
+
+// based on HTML i have three div where i have puted class like bg-black
+.bg-black{
+    //  Here i have added one background color property and assign value by maping (map.get),
+    //  currently i am accesing the value from global $backgrounds:();
+    background-color: map.get($backgrounds, "bg-black");
+
+
+     //  Here i have added one text color property and assign value by maping (map.get),
+    //  currently i am accesing the value from global $textColor:();
+    color: map.get($textColor, "text-white");
 }
+
+.bg-blue{
+    background-color: map.get($backgrounds, "bg-blue");
+    color: map.get($textColor, "text-white");
+}
+
+.bg-green{
+    background-color: map.get($backgrounds, "bg-green");
+    color: map.get($textColor, "text-white");
+}
+
+// NOTE -: BUT IT'S GIVING ME AN ERROR, so now you just need to add one line like 
+//  @use 'sass:map'; in line number one :).
