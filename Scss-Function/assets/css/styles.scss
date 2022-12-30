@@ -1,0 +1,31 @@
+// In you can create bunch of css properties, and you can use multiple times where you create same code.
+
+//  We'll use @mixin for creating function
+//  by  @include we can call our function where we need styling.
+
+
+@mixin buttonVariant-1{
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+// Here @mixin is function and "buttonVariant-1" is our function name.
+// ___________________________________________________________________________
+
+// Now you can Use our Mixin
+
+.button-v1{
+    // Here @include is the key of our calling Mixin functin
+    @include buttonVariant-1();
+    background-color: green;
+}
+
+.button-v2{
+    // Here @include is the key of our calling Mixin functin
+    @include buttonVariant-1();
+    background-color: red;
+}
