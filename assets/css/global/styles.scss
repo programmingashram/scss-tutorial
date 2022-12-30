@@ -1,0 +1,31 @@
+// IN SCSS Import we can import the existing scss files from dif folder.
+//  for example 
+//  i have created two folder in my 
+
+//      assets/css/global/style.scss 
+//      assets/css/variables/style.scss
+
+// firt one is "assets/css/global/style.scss"  that is my global scss 
+//  second one is "assets/css/variables/style.scss that is my variables scss file
+
+// I'm just going to import assets/css/variables/style.scss ---------to-------> assets/css/global/style.scss.
+
+// for import i'm using 
+// ------- @import
+
+@import '../variabes/style.scss';
+
+// Go to "assets/css/variables/style.scss" file for check variables
+
+h1{
+    // simply i have used my outside variable in my color property
+    color: $color-blue;
+}
+
+h2{
+    color: $color-purple;
+}
+
+h3{
+    color: $color-green;
+}
