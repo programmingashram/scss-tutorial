@@ -1,8 +1,8 @@
 # scss-tutorial
 
-# -- Introduction of SCSS
+#   Introduction of SCSS
 
-## -- What is Scss ?
+##  What is Scss ?
 
       Scss is the pre processor of CSS, Syntactically Cascading stylesheet in scss we can able to do great custimizations for our front end designs.
 
@@ -17,23 +17,40 @@
       2. Import
       3. Create Functions
       4. Create Variables
-      5. Maping
+      5. 
+      
 
-## -- How can we install The SCSS ?
+
+
+##  How can we install/Create/Compile SCSS files ?
       Here we can install SCSS by two ways,
       1. Externally
       2. Internally
 
-### --  Externally
+###  Externally
         We can use externaly softwares like kwala for compile SCSS,
         in kwala software we can import our scss file and complie.
 
-### -- Internally 
+### Internally 
         If you are using any code complier like **Vscode** or etc. so here we can able to install existing extensions - one of the most usable extanion for scss complier is **live sass complier**. 
         in kwala software we can import our scss file and complie for design.
 
-### -- Internally 
+###  Internally 
         If you are using any code complier like **Vscode** or etc. so here we can able to extensions - one of the most usable extanion for scss complier is **live sass complier**. 
+
+       
+#### Create/ Install Scss
+    
+     > #### Create one folder in your directory - **Folder Name should be - [assets]**
+            
+        >  #####  Create one file in you **assets** .
+        >
+        >         <code>styles.scss</code>
+        >
+        >  **Note** -: "file extension should be *.scss* . 
+        
+
+
 
 
 [View Examples on youtube ](https://www.youtube.com/@programmingashram/)
