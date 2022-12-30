@@ -16,7 +16,9 @@
       "bg-white" : white
   );
 </code>
-> 3. use your global variables by using maping
+
+> 3. use your global variables by using maping.
+
 <code>
       background-color: map.get($backgrounds, "bg-black");
 </code>
