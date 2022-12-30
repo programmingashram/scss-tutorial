@@ -38,20 +38,20 @@
 >
 >  **Note** -: "file extension should be ***.scss*** . 
 
-*   > Now Just install the extension or Kwala software - 
+*   > Now Just install the extension or Kwala software - <br>
       **i Highly Recommened to use VS code Complier, that is easy to use and complile our code.** install **Live Sass Complier**.
 
 
-    >>  After that you can see **Watch Sass** Button in you VS code footer just click on that.- 
-         ![Visual Studio Code Footer](./assets/images/vscode-footer.png)
+    >  After that you can see **Watch Sass** Button in you VS code footer just click on that.- 
+         ![Visual Studio Code Footer](/assets/images/vscode-footer.PNG)
 
-    >>  Now you can able see the Two Files are added in your asstes folder
+    >  Now you can able see the Two Files are added in your asstes folder
 
         1. styles.scss
         2. styles.css.map
         3. style.css
 
-    >> In your <code>index.html</code> you need to add <code>styles.css</code> file.
+    > In your <code>index.html</code> you need to add <code>styles.css</code> file.
 
 
 
