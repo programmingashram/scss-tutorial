@@ -56,4 +56,4 @@
 
 
 
-[View Examples on youtube ](https://www.youtube.com/@programmingashram/)
+[For more exploration watch your scss series on youtube](https://www.youtube.com/@programmingashram/)
