@@ -1,0 +1,29 @@
+// First Create Varisables 
+// We will use Doller ($) for creating var.
+
+// Examples
+
+$color-olive : green;
+
+
+// Now am just use my varibles in my 
+
+//---- For backgrounds
+.bg-olive{
+    background-color: $color-olive;
+}
+
+// ---- For text
+
+.text-olive{
+    color: $color-olive;
+}
+
+// ---- For Border
+
+.border-olive{
+    border: 1px solid $color-olive;
+}
+
+
+// Note - You can create multiple variables and use where you want to add same css for styling :).
