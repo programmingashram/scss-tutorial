@@ -1,0 +1,25 @@
+
+// Nestings in scss is most usefull functinalty of Scss, here we can craete and nested child elements for reduse the code for css file.
+
+// Fpr example
+
+
+// I have access one parent > ul
+ul{
+    list-style: none;
+    display: flex;
+
+    //  Then now based on HTML - li is a chlid of  ul , 
+    //  i simply access li under ul
+    li{
+        margin-right: 1rem;
+
+        //    Then now based on HTML - a is a chlid of li , 
+        //  i simply access a under ul>li
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+        }
+    }
+}
