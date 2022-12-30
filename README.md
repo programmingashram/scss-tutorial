@@ -1,6 +1,6 @@
 # scss-tutorial
 
-# -- Intrioduction of SCSS
+# -- Introduction of SCSS
 
 ## -- What is Scss ?
 
@@ -36,4 +36,4 @@
         If you are using any code complier like **Vscode** or etc. so here we can able to extensions - one of the most usable extanion for scss complier is **live sass complier**. 
 
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-r9wvjt)
+[View Examples on youtube ](https://www.youtube.com/@programmingashram/)
