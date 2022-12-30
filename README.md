@@ -1,5 +1,3 @@
-# scss-tutorial
-
 #   Introduction of SCSS
 
 ##  What is Scss ?
