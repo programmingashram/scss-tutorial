@@ -26,18 +26,17 @@
 
 ### Internally 
         If you are using any code complier like **Vscode** or etc. so here we can able to install existing extensions - one of the most usable extanion for scss complier is **live sass complier**. 
-        in kwala software we can import our scss file and complie for design.
 
        
-#### Create/ Install Scss
+#### Create/ Install Scss file
     
 > #### Create one folder in your directory - **Folder Name should be - [assets]**
     
 >  #####  Create one file in you **assets** .
 >
->         <code>styles.scss</code>
+>   <code>styles.scss</code>
 >
->  **Note** -: "file extension should be *.scss* . 
+>  **Note** -: "file extension should be ***.scss*** . 
 
 
 
